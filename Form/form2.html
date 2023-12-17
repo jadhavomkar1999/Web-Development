@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    
+    <h1>Travel reservation form</h1>
+
+    <form action="">
+
+        <label for="fname">Full name*: </label>
+        <input type="text" id="fname" name="fname" required placeholder="FirstName LastName">
+        <br>
+        <br>
+        <label for="fEmail">Email address*: </label>
+        <input type="email" id="fEmail" name="fEmail" required placeholder="abc@gmail.com">
+        <br>
+        <br>
+        <label for="fpac">Select Tour Package*: </label><br>
+        <select required>
+            <option value="Goa">Goa</option>
+            <option value="Kullu-Manali">Kullu-Manali</option>
+            <option value="Kerala">Kerala</option>
+            <opton value="Kashmir">Kashmir</opton>
+            <option value="Ladhak">Ladhak</option>
+        </select>
+        <br>
+        <br>
+
+        <label for="fdate">Arrival date*: </label><br>
+        <input type="date" id="fdate" name="fdate" required placeholder="DD/MM/YY">
+        <br><br>
+        <label for="fnum">Number of persons*: </label>
+        <input type="number" id="fnum" name="fnum" required >
+        <br>
+        <br>
+        <label for="fcheck">What would you want to avail?* </label><br>
+        <input type="checkbox" id="fcheck" name="fcheck" value="Boarding" >
+        <label for="fcheck">Boarding</label><br>
+        <input type="checkbox" id="fcheck" name="fcheck" value="Fooding" >
+        <label for="fcheck">Fooding</label><br>
+        <input type="checkbox" id="fcheck" name="fcheck" value="Sight seeing" >
+        <label for="fcheck">Sight seeing</label>
+        <br>
+        <br>
+
+        <label for="fcode">Discount Coupon code: </label>
+        <input type="text" id="fcode" name="fcode">
+        <br>
+        <br>
+        <label for="fterm">Terms and conditions*: </label>
+        <input type="radio" id="fterm" name="fterm" value="I agree" >
+        <label for="fterm">I agree</label>
+        <input type="radio" id="fterm" name="fterm" value="I disagree" >
+        <label for="fterm">I disagree</label>
+        <br>
+        <br>
+        <!--<button type="submit" onclick="alert('Successfully Complete reservation!')">Complete reservation</button>-->
+        <input type="submit" value="Complete reservation">
+
+
+        
+    </form>
+</body>
+</html>

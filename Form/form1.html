@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+
+    <h1>Registration Form</h1>
+    
+    <form action="" autocomplete="on">
+
+        <br/>
+
+        <label for="fname">Enter Name: </label>
+        <input type="text" id="fname" name="fname" placeholder="first middle sirname" required>
+        <br>
+        <br>
+        <label for="fmail" >Enter Email: </label>
+        <input type="email" id="fmail" name="fmail" placeholder="abc@gmail.com">
+        <br>
+        <br>
+        <label for="fadd">Enter Address: </label>
+        <input type="text" id="fadd" name="fadd">
+        <br>
+        <br>
+        <label for="fgame">Select Game: </label><br>
+        <input type="checkbox" id="fgame" name="fgame" value="football">
+        <label for="fgame">Football</label><br>
+        <input type="checkbox" id="fgame" name="fgame" value="Cricket">
+        <label for="fgame">Cricket</label><br>
+        <input type="checkbox" id="fgame" name="fgame" value="Hockey">
+        <label for="fgame">Hockey</label><br>
+        <input type="checkbox" id="fgame" name="fgame" value="Basketball">
+        <label for="fgame">Basketball</label><br>
+        <br>
+        <br>
+        <label for="fgender">Gender: </label>
+        <input type="radio" id="fgender" name="fgender" value="male">
+        <label for="fgender">Male</label>
+        <input type="radio" id="fgender" name="fgender" value="female">
+        <label for="fgender">Female</label>
+        <input type="radio" id="fgender" name="fgender" value="other">
+        <label for="fgender">Other</label><br>
+        <br>
+        <br>
+        <label>Course: </label><br>
+        <select>
+            <option value="Course">Course</option>
+            <option value="BCA">BCA</option>
+            <option value="MBA">MBA</option>
+            <option value="BE">BE</option>
+        </select>
+
+        <br>
+        <br>
+        <label>What is your opinion about games.</label><br>
+
+        <textarea cols="80" rows="5" value="Address"></textarea><br>
+        <br>
+
+        <!--<input type="submit" value="Submit">      another methode to create the button show in below option-->
+
+        <button type="button" onclick="alert('Submit Successfully!')">Submit</button>
+        <!--<input type="reset" value="reset">        another methode to create the button show in below option-->
+
+        <button type="button" onclick="alert('Reset Successfully!')">Reset</button>
+    
+
+
+    </form>
+    
+</body>
+</html>

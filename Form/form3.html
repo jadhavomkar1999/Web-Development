@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h1>Survey</h1>
+
+    <form>
+        <label for="fname">Name: </label>
+        <input type="text" id="fname" name="fname" required>
+        <br/>
+        <br/>
+        <label for="fadd">Address: </label>
+        <input type="text" id="fadd" name="fadd" required>
+        <br/>
+        <br/>
+        <label for="fmail">Email: </label>
+        <input type="email" id="fmail" name="fmail">
+        <br/>
+        <br/>
+        <label for="fnum">Mobile No: </label>
+        <input type="number" id="fnum" name="fnum" required>
+        <br/>
+        <br/>
+        <label for="fgen">Gender: </label>
+        <input type="radio" id="fgen" name="fgen" value="Male">
+        <label for="fgen">Male</label>
+        <input type="radio" id="fgen" name="fgen" value="Female">
+        <label for="fgen">Female</label>
+        <input type="radio" id="fgen" name="fgen" value="Other">
+        <label for="fgen">Other</label>
+        <br/>
+        <br/>
+        <label for="fDOB">DOB: </label>
+        <input type="date" id="fDOB" name="fDOB">
+        <br/>
+        <br/>
+        <button type="submit" onclick="alert('Congratulation!')">Submit</button>
+    </form>
+</body>
+</html>

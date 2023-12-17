@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: none;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+
+}
+
+#heading {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.header {
+    width: 100vw;
+    height: 40px;
+    border: 1px solid black;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.header #new {
+    font-weight: bold;
+    font-size: larger;
+}
+
+
+.header img {
+    width: 20px;
+    height: 20px;
+}
+
+nav {
+    width: 100%;
+}
+
+#navList {
+
+    margin-left: 35px;
+    margin-right: 35px;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#itemFlex {
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+}
+
+.contentbox {
+    height: 450px;
+    width: 300px;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 40px;
+    background-color: rgba(245, 245, 245, 0.634);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content:space-around;
+    gap: 40px;
+    
+    
+
+}
+
+.content1 #head{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#name{
+    font-size: large;
+    font-weight: bold;
+}
+
+#emailId{
+    font-size: large;
+    font-weight: bold;
+}
+
+#password{
+    font-size: large;
+    font-weight: bold;
+}
+
+
+
+/*<button class="button-57" role="button"><span class="text">Button 57</span><span>Alternate text</span></button>*/
+
+/* CSS */
+.button-57 {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #18181a;
+  border-radius: 20px;
+  color: #18181a;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 15px;
+  padding: 18px ;
+  text-decoration: none;
+  cursor: pointer;
+  background: #fff;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-57 span:first-child {
+  position: relative;
+  transition: color 600ms cubic-bezier(0.48, 0, 0.12, 1);
+  z-index: 10;
+}
+
+.button-57 span:last-child {
+  color: white;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  transition: all 500ms cubic-bezier(0.48, 0, 0.12, 1);
+  z-index: 100;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translateY(225%) translateX(-50%);
+  height: 14px;
+  line-height: 13px;
+}
+
+.button-57:after {
+  content: "";
+  position: absolute;
+  bottom: -50%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  transform-origin: bottom center;
+  transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
+  transform: skewY(9.3deg) scaleY(0);
+  z-index: 50;
+}
+
+.button-57:hover:after {
+  transform-origin: bottom center;
+  transform: skewY(9.3deg) scaleY(2);
+}
+
+.button-57:hover span:last-child {
+  transform: translateX(-50%) translateY(-100%);
+  opacity: 1;
+  transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
+}
+
+
+
+footer {
+    width: 100vw;
+    height: 30px;
+    border: 1px solid black;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
